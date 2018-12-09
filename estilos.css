@@ -1,0 +1,96 @@
+/*STYLE.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Build Date: 09-12-2018*/
+/* Author: Diego Huelgos.*/
+/* Copyright: (C) 2018 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.bg-black{
+	background: #000;
+}
+
+#bg{
+	height: 130vh;
+	background-image: url(..//assets/img/worker.png);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#form{
+	height: 100%;
+	align-items: center;
+}
+
+#bg-workers{
+	height: 100%;
+	width: 100%;
+	background-color: #e2e2e2;
+}
+
+.list-workers{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.container{
+	border-radius: 5px;
+}
+
+.form-content{
+
+	height: 490px;
+	border-radius: 30px;
+	box-shadow: 0 0  90px rgba(0,0,0,0.3);
+}
+.mensaje-confirmacion{
+		margin-top: 150px;
+}
+.mensaje-confirmacion small a{
+	text-decoration: none;
+
+}
+
+
+
+.overlay-card{
+  background-color:#222;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23fdfcff' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+  height:240px;
+  padding-top:25px;
+}
+
+
+.img-rounded{
+    border-style:solid;
+    border-color:#fff;
+    border-width:3px;
+    border-radius:100px;
+    height:100px;
+    width:100px;
+    margin-bottom:10px;
+}
+
+.panel.panel-default{
+  border:none;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.panel-body{
+  padding:20px;
+}
+
+.transition{
+	transition: all 0.2s;
+}
